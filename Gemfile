@@ -14,6 +14,8 @@ gem 'sqlite3', group: [:development, :test]
 #postgress for producton database
 gem 'pg', group: :production
 
+#stripe for making payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 #12 factor for Heroku
 gem 'rails_12factor', group: :production
 
